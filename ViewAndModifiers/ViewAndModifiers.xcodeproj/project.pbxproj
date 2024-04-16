@@ -11,6 +11,7 @@
 		4DBBE3FE2BCE37CF0043E368 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBE3FD2BCE37CF0043E368 /* ContentView.swift */; };
 		4DBBE4002BCE37D30043E368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE3FF2BCE37D30043E368 /* Assets.xcassets */; };
 		4DBBE4032BCE37D30043E368 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE4022BCE37D30043E368 /* Preview Assets.xcassets */; };
+		4DBBE40A2BCE65540043E368 /* CapsuleTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBE4092BCE65540043E368 /* CapsuleTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4DBBE3FD2BCE37CF0043E368 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DBBE3FF2BCE37D30043E368 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBBE4022BCE37D30043E368 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DBBE4092BCE65540043E368 /* CapsuleTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4DBBE3FB2BCE37CF0043E368 /* ViewAndModifiersApp.swift */,
 				4DBBE3FD2BCE37CF0043E368 /* ContentView.swift */,
+				4DBBE4092BCE65540043E368 /* CapsuleTextView.swift */,
 				4DBBE3FF2BCE37D30043E368 /* Assets.xcassets */,
 				4DBBE4012BCE37D30043E368 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBBE40A2BCE65540043E368 /* CapsuleTextView.swift in Sources */,
 				4DBBE3FE2BCE37CF0043E368 /* ContentView.swift in Sources */,
 				4DBBE3FC2BCE37CF0043E368 /* ViewAndModifiersApp.swift in Sources */,
 			);

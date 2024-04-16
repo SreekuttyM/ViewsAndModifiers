@@ -15,9 +15,17 @@ struct ContentView: View {
                 .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,maxHeight: .infinity)
         .padding()
+        .background(.red)
+        
+        VStack {
+            CapsuleTextView(text: "Hello World").foregroundColor(.yellow)
+        }
+        
     }
 }
+
 
 #Preview {
     ContentView()
